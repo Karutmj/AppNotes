@@ -1,0 +1,111 @@
+:root {
+    --color-light: white;
+    --color-dark: #212121;
+    --color-signal: #fab700;
+    
+    --color-background: var(--color-light);
+    --color-text: var(--color-dark);
+    --color-accent: var(--color-signal);
+    
+    --size-bezel: .5rem;
+    --size-radius: 4px;
+    
+    line-height: 1.4;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: calc(.6rem + .4vw);
+    color: var(--color-text);
+    background: var(--color-background);
+    font-weight: 300;
+    padding: 0 calc(var(--size-bezel) * 3);
+  }
+  html{
+    background-color: #0dff86;;
+  }
+ 
+  body{
+    padding: 0px;
+    background-color:#f30957;
+    margin: 0;
+    margin: 0px;
+    overflow: hidden;
+  }
+  h1,h2{
+    font-weight: 1000;
+    font-size: 155%;
+    color:#ff3377;
+  }
+  p{
+    font-size: 130%;
+    font-weight:400;
+  }
+  
+ 
+  
+  .card {
+    background:rgb(7, 7, 7);
+    padding: calc(4 * var(--size-bezel));
+    margin-top: calc(7 * var(--size-bezel));
+    border-radius: var(--size-radius);
+    border: 3px solid var(--color-shadow, currentColor);
+    box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+    margin-left: 50px;
+    color:white;
+    margin-left:40%;
+  }
+  textarea{
+    background-color: black;
+    color: whitesmoke;
+
+
+  }
+  
+  .notes{
+    border-radius: var(--size-radius);
+    margin-top: calc(7 * var(--size-bezel));
+    border: 3px solid var(--color-shadow, currentColor);
+    box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+    margin-left: 10%;
+    background:rgb(7, 7, 7);
+    color:white;
+    padding: calc(4 * var(--size-bezel));
+    display: flex; 
+    flex-direction: column; 
+
+  }
+  button {
+    color: currentColor;
+    padding:2%;
+    background:#ff3377;
+    border: none;
+    border-radius:5%;
+    font-weight: 500;
+    font-size: 20px;
+    
+  
+  }
+  button:hover{
+    background:#ffffff;
+    color:#212121;
+  }
+  .l-design-widht {
+    max-width: 40rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ #input_field{
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+ }
+ .notes .NewNote { 
+    background-color: #f30957;
+    padding: 2%;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+
+
