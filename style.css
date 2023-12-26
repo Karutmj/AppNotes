@@ -19,16 +19,11 @@
     font-weight: 300;
     padding: 0 calc(var(--size-bezel) * 3);
   }
-  html{
-    background-color: #0dff86;;
-  }
  
+
   body{
-    padding: 0px;
     background-color:#f30957;
-    margin: 0;
-    margin: 0px;
-    overflow: hidden;
+
   }
   h1,h2{
     font-weight: 1000;
@@ -38,6 +33,10 @@
   p{
     font-size: 130%;
     font-weight:400;
+  }
+  h6{
+    color: #212121;
+    background-color:white;
   }
   
  
@@ -49,7 +48,6 @@
     border-radius: var(--size-radius);
     border: 3px solid var(--color-shadow, currentColor);
     box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
-    margin-left: 50px;
     color:white;
     margin-left:40%;
   }
@@ -61,18 +59,23 @@
   }
   
   .notes{
-    border-radius: var(--size-radius);
-    margin-top: calc(7 * var(--size-bezel));
-    border: 3px solid var(--color-shadow, currentColor);
-    box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
-    margin-left: 10%;
-    background:rgb(7, 7, 7);
-    color:white;
-    padding: calc(4 * var(--size-bezel));
-    display: flex; 
-    flex-direction: column; 
-
+  
+      border-radius: var(--size-radius);
+      margin-top: calc(7 * var(--size-bezel));
+      border: 3px solid var(--color-shadow, currentColor);
+      box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+      margin-left: 10%;
+      background: rgb(7, 7, 7);
+      color: white;
+      padding: calc(4 * var(--size-bezel));
+      display: flex;
+      flex-direction: column;
+      min-width: 500px;
+      /* width: 500px; */ /* Usuń lub zakomentuj tę linię */
+      width: 100%; /* Dodaj tę linię, aby kontener zajmował całą dostępną szerokość */
   }
+
+  
   button {
     color: currentColor;
     padding:2%;
@@ -100,12 +103,18 @@
     height: 400px;
     font-size: 20px;
  }
- .notes .NewNote { 
+ .note  { 
     background-color: #f30957;
     padding: 2%;
     width: 100%;
     box-sizing: border-box;
  }
+ .notes-container
+ {
+background-color: #fab700;
+
+ }
+
 
 
 
